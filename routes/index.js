@@ -40,14 +40,13 @@ router.get('/jidelnicek', function(req, res, next){
             }
         }
         
+        res.send("success");
         
         // console.log("pondeli.title", window.$("table.jidelnicek").text());
         // console.log("pondeli.soup", window.$("td.popis").text());
         // console.log("pondeli.alergens", window.$("table.jildenicek").text());
       }
     );
-    
-    
 });
 
 var Day = function(){
